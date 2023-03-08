@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    background-color: #222222;
+    font-family: 'DM Sans', sans-serif;
+    color: whitesmoke;
+}
+
+.firstText {
+    text-align: center;
+}
+
+.inputBox {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+}
