@@ -4,9 +4,6 @@
     background-color: #222222;
     font-family: 'DM Sans', sans-serif;
     color: whitesmoke;
-}
-
-.firstText {
     text-align: center;
 }
 
@@ -20,4 +17,14 @@
     display: block;
     margin: auto;
     text-decoration: none;
+}
+
+#submitButton {
+    color: black;
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
 }
