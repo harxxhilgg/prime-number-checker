@@ -8,16 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="title">
+        <h1>Prime Number Checker!!</h1>
+    </div>
+
     <main>
-        <div class="firstText">
-            <h1>Input is Prime Or Not ? (Find Out 👇)</h1>
-        </div>
-    <label for="">   
-        <input class="inputBox" type="text" id="numberInput" placeholder="Enter An Integer!">
-        <button id="submitButton">Submit!</button>
-    </label>
+        <label for="inputBox">
+            <input id="inputBox" type="number" placeholder="Enter Any Number!: " />
+        </label>
+        <br>
+        <button id="checkBtn">Check</button>
     </main>
 
-    <script src="index.js"></script>
+    <div id="outputBox">
+        output will be here!
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
